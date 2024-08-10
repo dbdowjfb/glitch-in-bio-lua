@@ -4,7 +4,6 @@ require('templates.social')
 require 'templates.footer'
 require('templates.links')
 require'templates.header'
-local inspect = require 'inspect'
 
 local function insert_all(a, b)
     print('the type is '.. type(b))
@@ -31,8 +30,6 @@ Div = function(div)
         print(sections == nil and 'section nil' or 'section not nil')
         contTable = div.content
         for _, section in pairs(sections) do
-            print("??")
-            print(inspect(section))
             insert_all(contTable,
                 section
             )
