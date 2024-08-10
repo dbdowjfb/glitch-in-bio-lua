@@ -1,0 +1,64 @@
+{
+  "metaTitle": "",
+  "metaDescription": "My meta description.",
+  "name": "Where to find DBDO",
+  "theme": "glitch",
+  "avatarImage": "https://cdn.glitch.com/560ed5ed-9d00-433a-9ff9-7750d79d13da%2FGlitch_TeamAvatar.png?v=1624643105812",
+  "links": [
+    {
+      "url": "https://twitter.com/@Smoky_Carrot",
+      "text": "Twitterverse"
+    },
+    {
+      "url": "https://sn.dbdo.website/@dbdo",
+      "text": "Fediverse"
+    },
+    {
+    "url": "https://wf.dbdo.website/@dbdo",
+    "text": "Blog that is in fact diary"
+    },
+    {
+      "url": "https://dbdo.codeberg.page",
+      "text": "Blog on computing topics"
+    },
+    {
+      "url": "https://dbdo.website/posts",
+      "text": "Blog about other resorted topics"
+    }
+
+  ],
+  "social": {
+    "glitch": "",
+    "arena": "",
+    "bandcamp": "",
+    "cohost": "",
+    "dev": "",
+    "facebook": "",
+    "github": "https://github.com/dbdowjfb",
+    "gitlab": "",
+    "hashnode": "",
+    "instagram": "",
+    "keybase": "",
+    "kofi": "",
+    "letterboxd": "",
+    "linkedin": "",
+    "mastodon": "https://sn.dbdo.website/@dbdo",
+    "medium": "",
+    "onlyfans": "",
+    "patreon": "",
+    "pinboard": "",
+    "pinterest": "",
+    "podcast": "",
+    "soundcloud": "",
+    "spotify": "",
+    "stackoverflow": "",
+    "substack": "",
+    "twitter": "https://twitter.com/Smoky_Carrot",
+    "twitch": "",
+    "telegram": "https://t.me/dbdowjfb",
+    "tiktok": "",
+    "tumblr": "",
+    "youtube": "",
+    "email": "dbdowjfb@gmail.com"
+  }
+}
