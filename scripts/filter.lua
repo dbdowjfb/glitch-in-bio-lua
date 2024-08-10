@@ -24,8 +24,6 @@ local sections = {
     renderFooter
 }
 
-
-
 Div = function(div)
     -- if the div id is `content`, then append each section to this div
     if div.identifier == "content" then
@@ -39,7 +37,6 @@ Div = function(div)
                 section
             )
         end
-
         div.content = contTable
         -- insert _each_ section within this division
         return div
