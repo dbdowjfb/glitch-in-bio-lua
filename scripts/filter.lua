@@ -39,25 +39,6 @@ Div = function(div)
                 section
             )
         end
- 
-        -- insert_all(
-        --     contTable,
-        --     {aaaaaaaaaaaaaaaaaa = 'ffffffffffffffffffffffffff'}
-        -- )
-        -- table.insert(contTable,
-        --     pandoc.RawInline('html', '<ul class="link-list"><li>' .. renderLinks(twitter) .. '</li></ul>')
-        -- -- pandoc.Link( { ["aria-label"] =  ' dbdo on email' }, "1@1.com", 'mailto:', "" )
-        -- )
-        -- local link = pandoc.Link("my name",
-        --     "mailto:1@1.com",
-        --     '', --title
-        --     "description",
-        --     {},
-        --     { test = 'test' },
-        --     '1@1.COM'
-        -- )
-        -- link.attributes = { ['aria-label'] = 'something' }
-        -- table.insert(contTable, link)
 
         div.content = contTable
         -- insert _each_ section within this division
