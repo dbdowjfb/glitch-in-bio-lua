@@ -4,7 +4,7 @@ This project is a Lua adaptation of selected features from [glitch-in-bio](https
 
 ## Dependences
 - Pandoc (>=3)
-- GNU Make
+- GNU make
 - Python3 
 
 ## Usage 
