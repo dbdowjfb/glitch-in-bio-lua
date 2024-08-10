@@ -9,8 +9,6 @@ Html = function(code)
 end
 local link = pandoc.Link
 
-
-
 function renderSocial(platform)
   if settings.social[platform.name] ~= nil and settings.social[platform.name] ~= "" then
     -- alt = pandoc.Span({})
