@@ -1,3 +1,13 @@
 # Glitch in Bio Lua!
 
-Part of [glitch-in-bio](https://github.com/andypiper/my-glitch-in-bio) rewritten using Pandoc Lua filter, supporting text-based web browsers e.g w3m, eww. 
+This project is a Lua adaptation of selected features from [glitch-in-bio](https://github.com/andypiper/my-glitch-in-bio). It is created to experiment with Pandoc Lua filters and support text-based web browsers such as w3m and eww.
+
+## Dependences
+- Pandoc (>=3)
+- make
+- python3 
+
+## Usage 
+- Edit `settings.json`.
+- Rebuild with `make` 
+- preview with `make serve` 
