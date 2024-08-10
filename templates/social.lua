@@ -81,22 +81,6 @@ socials = {
   { name = "youtube",       altText = "YouTube" }
 };
 
--- print(inspect(renderSocial({ name = "twitter",       altText = "Twitter" })))
-
--- Div = function (div)
---    local contTable = div.content
---    table.insert(contTable,
---    renderSocial({ name = "twitter",       altText = "Twitter" }
---   ))
---   div.content = contTable
---   return  div
--- end
-
--- Link = function (div)
---   return  renderSocial({ name = "twitter",       altText = "Twitter" })
--- end
-
-
 SocialIcons = function()
   print(socials == nil and 'social is nil' or 'social is not nil')
   result = pandoc.Div(
@@ -120,20 +104,3 @@ SocialIcons = function()
 end
 
 renderSocialIcons = SocialIcons()
-
-
--- local Div = function(div)
---   -- insert the renderSocial return value to the content of this div
---   local social = pandoc.Link("my name",
---     "mailto:1@1.com",
---     '',             --title
---     "description",
---     {},
---     { test = 'test' },
---     '1@1.COM'
---   )
---   if div.identifier == 'content' then
---     table.insert(div.content, social)
---     return div
---   end
--- end
