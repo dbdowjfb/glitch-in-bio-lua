@@ -1,5 +1,5 @@
 all:
-	rm ./build/* || true
+	rm ./build/* -r || true
 	cp styles build -r
 	pandoc index.html --lua-filter ./scripts/filter.lua -o build/index.html \
 	--template template.html
