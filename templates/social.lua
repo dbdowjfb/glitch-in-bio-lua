@@ -42,6 +42,7 @@ function renderEmail()
       ''                                  -- id
     )
     link.attributes = { ['aria-label'] = settings.name .. ' on email' }
+    return link
   end
 end
 
