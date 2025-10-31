@@ -1,7 +1,6 @@
 Social_svgs = require "templates.social-svgs"
 -- write a lot of codes to convert settings.json to a table
 local json = require 'pandoc.json'
-local inspect = require 'inspect'
 local file = io.open("settings.json", "r")
 local settings = json.decode(file:read("*all"))
 Html = function(code)
